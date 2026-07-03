@@ -73,12 +73,37 @@
             <h2 class="section-title">02. <span class="accent-text">Skills</span></h2>
             <div class="skills-grid">
                 <div class="glass-card skill-category">
+                    <h3>Networking & Infra</h3>
+                    <ul>
+                        <li>TCP/IP Networking</li>
+                        <li>IPv4/IPv6 & Subnetting</li>
+                        <li>VLAN Architecture</li>
+                        <li>Routing & Switching</li>
+                        <li>Network Segmentation</li>
+                        <li>Switch & Fiber Mapping</li>
+                        <li>Topology Mapping</li>
+                    </ul>
+                </div>
+                <div class="glass-card skill-category">
+                    <h3>Systems Admin & Enterprise</h3>
+                    <ul>
+                        <li>Windows Server & 10/11</li>
+                        <li>RHEL & Ubuntu Linux</li>
+                        <li>Active Directory (AD DS)</li>
+                        <li>Microsoft 365 Admin</li>
+                        <li>Logging & Monitoring</li>
+                        <li>Identity & Access (IAM)</li>
+                    </ul>
+                </div>
+                <div class="glass-card skill-category">
                     <h3>Project Mgmt & Docs</h3>
                     <ul>
                         <li>Microsoft Project</li>
-                        <li>Budgeting & Estimation</li>
-                        <li>Timeline Development</li>
-                        <li>Infrastructure Mapping</li>
+                        <li>Gantt & Project Scheduling</li>
+                        <li>Budgeting & Cost Estimation</li>
+                        <li>Technical Documentation</li>
+                        <li>Vendor & Contractor Support</li>
+                        <li>Resource Planning</li>
                     </ul>
                 </div>
                 <div class="glass-card skill-category">
@@ -96,6 +121,8 @@
                         <li>DMX Lighting Control</li>
                         <li>Projection Mapping</li>
                         <li>Microcontrollers</li>
+                        <li>Show Systems Integration</li>
+                        <li>Systems Troubleshooting</li>
                     </ul>
                 </div>
                 <div class="glass-card skill-category">
@@ -105,6 +132,8 @@
                         <li>Vendor Coordination</li>
                         <li>Code/Permit Compliance</li>
                         <li>AI-Assisted Workflows</li>
+                        <li>Budget Oversight ($500K+)</li>
+                        <li>Team Leadership (100+ Staff)</li>
                     </ul>
                 </div>
             </div>
@@ -134,13 +163,20 @@
 
         <section id="portfolio" class="section reveal">
             <h2 class="section-title">04. <span class="accent-text">Portfolio</span></h2>
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">All Installs</button>
-                <button class="filter-btn" data-filter="halloween">Halloween</button>
-                <button class="filter-btn" data-filter="christmas">Christmas</button>
-                <button class="filter-btn" data-filter="midsummer">Midsummer</button>
+            <div class="portfolio-main-tabs">
+                <button class="main-tab-btn active" data-tab="creative">Creative Production</button>
+                <button class="main-tab-btn" data-tab="it">IT & Cybersecurity</button>
             </div>
-            <div class="portfolio-grid">
+
+            <!-- Creative Production Sub-Portfolio -->
+            <div id="creative-portfolio" class="portfolio-sub-content active">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Installs</button>
+                    <button class="filter-btn" data-filter="halloween">Halloween</button>
+                    <button class="filter-btn" data-filter="christmas">Christmas</button>
+                    <button class="filter-btn" data-filter="midsummer">Midsummer</button>
+                </div>
+                <div class="portfolio-grid">
                 <div class="portfolio-item glass-card christmas" data-category="christmas">
                     <div class="portfolio-image-wrapper">
                         <img src="images/christmas-2024-show-1.webp" alt="Christmas 2024 Show" loading="lazy">
@@ -333,13 +369,48 @@
                         <h3>Christmas 2024 Projection Mapping</h3>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Lightbox Modal -->
-            <div id="lightbox" class="lightbox">
-                <span class="lightbox-close">&times;</span>
-                <img class="lightbox-content" id="lightbox-img">
-                <div id="lightbox-caption"></div>
+            </div></div> <!-- End of creative-portfolio sub-content -->
+
+            <!-- IT & Cybersecurity Sub-Portfolio -->
+            <div id="it-portfolio" class="portfolio-sub-content">
+                <div class="it-portfolio-grid">
+                    <!-- Project 1: Enterprise Network & Cybersecurity Lab -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><circle cx="12" cy="11" r="3"></circle></svg>
+                        </div>
+                        <span class="it-category">Network & Security Engineering</span>
+                        <h3>Enterprise Network & Cybersecurity Lab</h3>
+                        <p class="it-teaser">Designed, configured, and secured a multi-segmented enterprise network topology protected by OPNsense Firewall and VyOS routing.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">OPNsense</span>
+                            <span class="tech-tag">VyOS</span>
+                            <span class="tech-tag">Active Directory</span>
+                            <span class="tech-tag">Wazuh SIEM</span>
+                            <span class="tech-tag">RHEL</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="enterprise-network">View Case Study</button>
+                    </div>
+
+                    <!-- Project 2: AI-Assisted Red Team Penetration Testing -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                        </div>
+                        <span class="it-category">Offensive Security & Red Teaming</span>
+                        <h3>AI-Assisted Red Team Penetration Testing</h3>
+                        <p class="it-teaser">Conducted multi-phase penetration testing against a simulated enterprise network, utilizing a local AI agent (OpenClaw) to accelerate reconnaissance, vulnerability mapping, and reporting.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Kali Linux</span>
+                            <span class="tech-tag">Nmap</span>
+                            <span class="tech-tag">Evil-WinRM</span>
+                            <span class="tech-tag">OpenClaw</span>
+                            <span class="tech-tag">Active Directory</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="pentest-redteam">View Case Study</button>
+                    </div>
+
+
             </div>
         </section>
 
@@ -351,7 +422,7 @@
                     <h4 class="major">Information Systems & Technology</h4>
                     <p class="concentration">Cybersecurity Concentration</p>
                     <p class="university">California State University, San Bernardino</p>
-                    <p class="graduation date-badge">Expected Graduation: May 2026</p>
+                    <p class="graduation date-badge">Graduated: May 2026</p>
                 </div>
                 <div class="honors-list">
                     <ul>
@@ -374,6 +445,24 @@
 
     <!-- Particles.js for background effect -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Case Study Modal -->
+    <div id="case-study-modal" class="case-study-modal">
+        <span class="case-study-close">&times;</span>
+        <div class="case-study-modal-container glass-card">
+            <div class="case-study-body" id="case-study-body">
+                <!-- Content injected dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

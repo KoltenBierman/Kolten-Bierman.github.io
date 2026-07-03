@@ -723,6 +723,475 @@ section {
     text-shadow: 0 0 10px rgba(176, 0, 255, 0.5);
 }
 
+
+/* Portfolio Category Switcher */
+.portfolio-main-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.main-tab-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.main-tab-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.main-tab-btn:hover {
+    color: var(--text-primary);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.main-tab-btn.active {
+    color: var(--text-primary);
+}
+
+.main-tab-btn.active::after {
+    width: 100%;
+}
+
+/* Sub-Portfolio content wrappers */
+.portfolio-sub-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-sub-content.active {
+    display: block;
+    opacity: 1;
+}
+
+/* IT Portfolio Grid */
+.it-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.it-portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.it-card-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgba(0, 240, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-blue);
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.it-card-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.it-category {
+    font-size: 0.8rem;
+    color: var(--accent-purple);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.it-portfolio-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.it-teaser {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.it-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.tech-tag {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+}
+
+.it-portfolio-item:hover .it-card-icon {
+    background: rgba(176, 0, 255, 0.15);
+    color: var(--accent-purple);
+    border-color: rgba(176, 0, 255, 0.3);
+    box-shadow: 0 0 15px rgba(176, 0, 255, 0.3);
+}
+
+.it-view-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Case Study Modal */
+.case-study-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    padding: 2rem;
+}
+
+.case-study-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.case-study-modal-container {
+    width: 100%;
+    max-width: 1100px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 3rem;
+    border-color: rgba(0, 240, 255, 0.2);
+    box-shadow: 0 0 40px rgba(0, 240, 255, 0.15);
+}
+
+.case-study-modal-container::-webkit-scrollbar {
+    width: 8px;
+}
+.case-study-modal-container::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+}
+.case-study-modal-container::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+.case-study-modal-container::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-blue);
+}
+
+.case-study-close {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1010;
+    line-height: 1;
+    user-select: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.case-study-close:hover {
+    color: var(--text-primary);
+    border-color: rgba(255, 0, 0, 0.5);
+    background: rgba(255, 0, 0, 0.25);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    transform: rotate(90deg);
+}
+
+/* Dynamic Case Study Content Layout */
+.cs-header {
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 1.5rem;
+}
+
+.cs-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.cs-meta-item strong {
+    color: var(--text-primary);
+}
+
+.cs-title {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    color: var(--text-primary);
+}
+
+.cs-layout {
+    display: grid;
+    grid-template-columns: 2.2fr 1.2fr;
+    gap: 3rem;
+}
+
+.cs-section {
+    margin-bottom: 2.5rem;
+}
+
+.cs-section h4 {
+    font-size: 1.2rem;
+    color: var(--accent-blue);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cs-text p {
+    color: var(--text-secondary);
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.cs-diagram-container {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.cs-diagram-container:hover {
+    border-color: var(--accent-blue);
+}
+
+.cs-diagram {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+.cs-diagram-caption {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.8rem;
+    font-style: italic;
+}
+
+/* Case Study Gallery Grid */
+.cs-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cs-gallery-item {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.cs-gallery-item:hover {
+    border-color: var(--accent-purple);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(176, 0, 255, 0.15);
+}
+
+.cs-gallery-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--glass-border);
+    transition: transform 0.5s ease;
+}
+
+.cs-gallery-item:hover .cs-gallery-img {
+    transform: scale(1.03);
+}
+
+.cs-gallery-caption {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs-bullet-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.cs-bullet-list li {
+    position: relative;
+    padding-left: 1.8rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.cs-bullet-list li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+/* Sidebar Details */
+.cs-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cs-sidebar-card {
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.cs-sidebar-card h5 {
+    font-size: 1.1rem;
+    color: var(--accent-purple);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cs-stats-list {
+    list-style: none;
+}
+
+.cs-stats-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    font-size: 0.95rem;
+}
+
+.cs-stats-list li:last-child {
+    border-bottom: none;
+}
+
+.cs-stats-label {
+    color: var(--text-secondary);
+}
+
+.cs-stats-value {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.cs-tech-group {
+    margin-bottom: 1.2rem;
+}
+
+.cs-tech-group:last-child {
+    margin-bottom: 0;
+}
+
+.cs-tech-group-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.cs-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.cs-tech-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    background: rgba(0, 240, 255, 0.05);
+    border: 1px solid rgba(0, 240, 255, 0.1);
+    color: var(--accent-blue);
+}
+
+.cs-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.cs-skill-badge {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background: rgba(176, 0, 255, 0.08);
+    border: 1px solid rgba(176, 0, 255, 0.15);
+    color: #e2b3ff;
+}
+
 /* Global Animations / Reveals */
 .reveal {
     opacity: 0;
@@ -743,6 +1212,10 @@ section {
     }
     .stats-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .cs-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }
 
@@ -769,5 +1242,24 @@ section {
     }
     .timeline-dot {
         left: -3rem;
+    }
+    .case-study-modal-container {
+        padding: 1.5rem;
+    }
+    .cs-title {
+        font-size: 1.8rem;
+    }
+    .portfolio-main-tabs {
+        gap: 1rem;
+    }
+    .main-tab-btn {
+        font-size: 1.2rem;
+    }
+    .case-study-close {
+        top: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
     }
 }
