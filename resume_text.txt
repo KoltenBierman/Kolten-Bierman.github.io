@@ -1,44 +1,55 @@
-Kolten Bierman  
-Corona, California  | 951 -818-2101 | koltenbierman@gmail.com   
-Skills  
-Project Management & Documentation  
-Microsoft Project (Gantt Scheduling)  Budgeting & Cost Estimation  Scheduling & Timeline Development 
-Documentation Control  Infrastructure Mapping  Contract & Vendor Support  
-Design & Engineering Software  
-Revit  AutoCAD  Fusion 360   Visio  SketchUp  
-Technical Systems & Installation  
-Animatronics Systems   Pneumatic Effects  DMX Lighting Installation & Control  Projection Mapping  
-Microcontrollers & Automation  Show Systems Integration  
-Leadership, Operations & Emerging Technology  
-Budget Oversight ($ 500K+)  Team Leadership (100+ Staff)  Vendor Coordination  Permit & Code Compliance 
- Cross -Functional Collaboration  AI-Assisted Workflow Optimization (n8n Automation ) 
-Professional Experience  
-Creative Director / Entertainment  Manager                       | September 2023 – Present  
-Castle Park, Riverside, CA  
- Directed end -to-end development of the “Castle Dark” Halloween event, ranked 3rd nationally by USA Today 
-10Best for two consecutive years; generated $1M+ in annual revenue and increased net profit by $100K+ through 
-strategic planning, execution, and operat ional oversight.  
- Managed and scheduled a workforce of 100+ employees during peak operational periods, overseeing training, 
-performance management, and cross -department coordination to ensure project execution.  
- Oversaw end -to-end budget estimation and financial governance of a $500K+ production budget, implementing 
-customized Excel financial models to support detailed cost forecasting, strategic resource allocation, variance 
-management, and data -driven operationa l decision -making.  
- Led design and execution of large -scale themed events including Castle Dark, Christmas, Mardi Gras, and Easter, 
-coordinating creative, technical, and operational teams from concept through close -out. 
- Developed detailed maze schematics and spatial plans, performing precise measurements and integrating 
-emergency exits and lighting configurations to ensure code compliance and obtain full city approval.  
- Coordinated with city officials and Fire Marshal throughout permitting and inspection processes to ensure fire 
-code, ADA, and structural compliance for temporary structures and themed installations, proactively resolving 
-compliance issues to maintain proje ct timelines.  
- Engineered and integrated animatronics, pneumatic effects, DMX lighting systems, and automation controls, 
-collaborating with fabrication and technical teams to deliver immersive show elements.  
- Conducted comprehensive site survey and developed updated switch and fiber network documentation, improving 
-infrastructure visibility and supporting long -term capital planning initiatives.   
- Selected as a panelist at Midsummer Scream for two consecutive years, presenting large -scale themed attraction 
-development strategies and technical integration processes to industry professionals.  
-Education  
-Bachelor of Science in Information Systems and Technology           | Expected Graduation: May 2026   
-Cybersecurity  Concentration  
-California State University, San Bernardino  
- CISO Club Member  | PAES Scholarship Recipient | Village Council President, Coyote Village Residence Halls  
+Kolten Bierman
+Corona / Riverside, California | 951-818-2101 | koltenbierman@gmail.com
 
+PROFESSIONAL SUMMARY
+Multidisciplinary Entertainment Manager, Systems Integrator, and Technologist with comprehensive experience directing end-to-end large-scale seasonal attractions, technical show installations, enterprise infrastructure, and cybersecurity operations. Proven director-level leadership across workforce management (100+ staff), fiscal governance ($500K+ production budgets), and award-winning themed entertainment (USA Today 10Best Top 3 Haunted Attraction in the US). Proficient in DMX lighting, show automation, animatronics, pneumatic controls, enterprise network design (WAN/DMZ/LAN), and blue/red team cybersecurity operations.
+
+PROFESSIONAL EXPERIENCE
+
+Entertainment Manager | September 2023 – Present
+Castle Park — Riverside, California
+• Serve as the primary director, leader, and project lead responsible for planning, developing, coordinating, and executing large-scale seasonal entertainment experiences, special events, themed attractions, technical installations, and operational initiatives.
+• Cross-Functional Leadership: Provide strict oversight and guidance across creative, technical, operational, construction, maintenance, facilities, safety, and entertainment departments to ensure projects complete on time, within scope, and under budget.
+• Workforce Management: Lead, schedule, and coordinate a division workforce exceeding 100 employees during peak seasonal operating periods; align dynamic labor allocations with attendance projections.
+• Budget Governance ($500K+): Directly manage production and operational budgets exceeding $500,000 across multiple simultaneous properties; engineered custom Excel forecasting models for data-driven capital allocation.
+• Flagship Property (Castle Dark): Primary project lead for Castle Dark, consistently maintaining its national ranking as a Top 3 Haunted Attraction in the US by USA Today 10Best for two consecutive years; generated $1M+ in annual revenue and boosted net profitability by $100K+.
+• Attraction Layout & Spatial Design: Develop pinpoint-accurate attraction layouts, maze blueprints, queue pathways, and life-safety egress routing using physical field measurements.
+• Permitting & Fire Marshal Compliance: Primary liaison with city planners, building inspectors, and the Fire Marshal; author structural approval packages, fire code documentation, and ADA compliance plans.
+• Technical Entertainment Systems: Design, install, wire, and troubleshoot addressable DMX lighting, automated animatronics, custom pneumatic actuators, special effects (SFX) rigs, and multi-zone spatial audio networks.
+• Network & Infrastructure Mapping: Executed facility-wide technical surveys to locate, identify, and map network switches, communication nodes, and fiber pathways to guide IT troubleshooting and long-term capital expansion.
+• Midsummer Scream Presenter: Invited to speak as a featured panelist at Midsummer Scream for two consecutive years, representing Castle Dark and sharing event insights, seasonal promotions, and stories from that haunt year.
+
+EDUCATION
+
+California State University, San Bernardino (CSUSB)
+Bachelor of Science in Information Systems and Technology
+Concentration: Cybersecurity | Graduated: May 2026
+• CSUSB University Honors Program Graduate
+• President, Coyote Village Residence Halls Council
+• Presenter, Meeting of the Minds Research Conference ("From DMX to IP: How Lighting Control Systems in Themed Entertainment Have Evolved into Modern Information Systems")
+• Member, CISO Club (Network defense, vulnerability assessments, and CTFs)
+• Recipient, PAES Scholarship
+
+Purdue University Polytechnic Institute
+Master of Science in Computer and Information Technology
+Concentration: Project Management | Expected Graduation: Fall 2027
+• Focus: Enterprise IT Operations, Systems Analytics & Project Management Frameworks
+
+MAJOR PROJECTS & TECHNICAL ACHIEVEMENTS
+
+• Dogpark Enterprise Infrastructure Project (CSUSB): Architected and defended a simulated enterprise network for "KAM Industries." Deployed multi-tier infrastructure segmented into WAN, DMZ, and LAN with Active Directory (AD DS), OPNsense/VyOS firewalls, and Wazuh SIEM; defended against live red team intrusions and achieved audited 94% defensive baseline compliance on NIST CSF 2.0 / SP 800-53 via CSET.
+• Dogpark Penetration Test & Risk Assessment (CSUSB): Lead contributor for authorized internal enterprise penetration test (April 2026); exploited Windows Server IIS, Linux PostgreSQL, and AD domain controller with CVSS modeling and AI acceleration; extended assessment to evaluate OT attack surfaces and multi-stage lateral attack paths into simulated critical infrastructure utilities.
+• Meeting of the Minds Research Presentation (CSUSB): Presented original research, "From DMX to IP: How Lighting Control Systems in Themed Entertainment Have Evolved into Modern Information Systems"; examined how protocols like Art-Net and sACN have evolved into IP-based networks requiring knowledge of networking, VLANs, managed switches, and OT cybersecurity.
+• Halloween Props Tracker: Engineered standalone Python/SQL asset database with dynamic inline QR code generator and automated OpenPyXL Excel reporting, halving annual audit times.
+• AI Campaign Generator: Built cloud-hosted multi-turn narrative platform using Firebase NoSQL store, n8n workflow automation server, Ollama local LLMs, and Gemini API integration.
+• Interactive Animatronic Bird: Prototyped independent AVR microcontroller system with head movement, sound, and eye flicker, wireless IR command activation, and low-power circuit.
+• Raspberry Pi Show Control Node: Deployed Debian Linux node intercepting audio frequencies to modulate DMX lighting; synchronized thunderstorm simulation engine with real-time strobe cues.
+
+CORE TECHNICAL SKILLS & COMPETENCIES
+
+• Project Management: Microsoft Project, Gantt Scheduling, WBS, Milestone Tracking, Cost Estimation, Budget Development ($500K+), Risk Registries, Procurement Planning, Workforce Management (100+ Staff).
+• Cybersecurity: Wazuh SIEM, Tenable Nessus, SQLMap, Kali Linux, Metasploit, Evil-WinRM, Nmap, Burp Suite Pro, Wireshark, NIST CSF 2.0, NIST SP 800-53, MITRE ATT&CK, CVSS 3.1.
+• Networking & Systems: TCP/IP, Subnetting, VLANs, Routing & Switching, WAN/DMZ/LAN Segmentation, OPNsense, VyOS, Active Directory (AD DS), Group Policy (GPO), Windows Server, RHEL, Ubuntu Linux, VMware, Proxmox, Fiber Infrastructure.
+• AI & Workflow Automation: Google Gemini API Suite, Ollama Local LLMs, n8n Workflow Automation Server, REST APIs, Webhook Implementation, Prompt Engineering & Multi-Turn Context, Firebase Event Listeners, Autonomous Logic Trees, Industrial QR Matrix Systems.
+• Entertainment Systems & Automation: Addressable DMX512 Lighting, Art-Net, sACN, MyDMX, Animatronics Automation, Pneumatic Actuators, Spatial Audio Routing & Mixing, Multi-Zone Ambient Soundscapes, Projection Mapping, Interactive Attraction Trigger Systems.
+• CAD Software & Technical Modeling: AutoCAD Architecture, Autodesk Revit, Autodesk Fusion 360, Trimble SketchUp, Physical Site Surveys, 2D & 3D Drafting, Attraction Schematics, Floor Plan Layouts, Spatial Modeling, As-Built Drawings.

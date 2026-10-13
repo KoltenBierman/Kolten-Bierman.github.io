@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kolten Bierman - Creative, Technologist, and Cybersecurity Professional">
-    <title>Kolten Bierman | Creative & Technologist</title>
+    <meta name="description" content="Kolten Bierman - Entertainment Manager, Technologist, Systems Integrator, and Cybersecurity Professional">
+    <title>Kolten Bierman | Entertainment Manager & Technologist</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -17,24 +17,31 @@
 
     <nav class="glass-nav">
         <a href="#hero" class="nav-brand">KB.</a>
-        <div class="nav-links">
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Projects</a>
             <a href="#education">Education</a>
         </div>
     </nav>
 
     <main>
+        <!-- HERO SECTION -->
         <section id="hero" class="hero fade-in">
             <div class="hero-content">
                 <p class="greeting">Hello, I'm</p>
                 <h1 class="glitch" data-text="Kolten Bierman">Kolten Bierman</h1>
-                <h2 class="role">Creative <span class="accent-text">&</span> Technologist</h2>
-                <p class="hero-summary">Bridging entertainment systems, immersive experiences, and cybersecurity.</p>
+                <h2 class="role">Entertainment Manager <span class="accent-text">&</span> Technologist</h2>
+                <p class="hero-summary">Bridging large-scale themed entertainment experiences, systems automation, enterprise infrastructure, and cybersecurity.</p>
                 <div class="hero-actions">
-                    <a href="#experience" class="btn primary-btn">View My Work</a>
+                    <a href="#experience" class="btn primary-btn">View My Experience</a>
+                    <a href="#portfolio" class="btn secondary-btn">Explore Projects</a>
                     <a href="mailto:koltenbierman@gmail.com" class="btn secondary-btn">Contact Me</a>
                 </div>
             </div>
@@ -44,132 +51,557 @@
             </div>
         </section>
 
+        <!-- SECTION 01: ABOUT -->
         <section id="about" class="section reveal">
-            <h2 class="section-title">01. <span class="accent-text">About</span></h2>
+            <h2 class="section-title">01. <span class="accent-text">Executive Bio & Leadership</span></h2>
             <div class="glass-card dual-layout">
                 <div class="text-content">
-                    <p>I am a multifaceted Creative, Manager, and Technologist based in Corona, California. With a deep passion for bringing immersive experiences to life, I directed the end-to-end development of Castle Park's "Castle Dark" Halloween event—earning national recognition and driving significant revenue growth.</p>
-                    <p>My expertise extends far beyond creative vision. I specialize in integrating physical and digital systems: from engineering pneumatic effects and DMX lighting configurations to architecting secure network infrastructures.</p>
-                    <p>Currently pursuing a B.S. in Information Systems and Technology with a concentration in Cybersecurity at CSUSB, I blend operational management with an unyielding dedication to security and innovation.</p>
+                    <p>I am the <strong>Entertainment Manager</strong> at <strong>Castle Park</strong> in Riverside, California. I serve as the primary director, leader, and project lead responsible for planning, developing, coordinating, and executing large-scale seasonal entertainment experiences, special events, themed attractions, technical installations, and operational initiatives throughout the park property.</p>
+                    <p><strong>Cross-Functional Leadership:</strong> I provide strict oversight and guidance across creative, technical, operational, construction, maintenance, facilities, safety, and entertainment departments to ensure complex initiatives are completed on time, within scope, and under budget.</p>
+                    <p><strong>Lifecycle Management:</strong> I direct the complete project lifecycle from initial concept development, budgeting, and spatial design through procurement, permitting, technical installation, live operation, maintenance, and post-event closeout.</p>
+                    <p>Graduated from California State University, San Bernardino, with a <strong>B.S. in Information Systems & Technology (Cybersecurity Concentration)</strong> in May 2026. Currently pursuing an <strong>M.S. in Computer & Information Technology (Project Management Concentration)</strong> at Purdue University.</p>
                 </div>
                 <div class="stats-grid">
                     <div class="stat-item">
                         <span class="stat-number">100+</span>
-                        <span class="stat-label">Staff Managed</span>
+                        <span class="stat-label">Division Workforce Managed</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">$500K</span>
-                        <span class="stat-label">Budget Ops</span>
+                        <span class="stat-number">$500K+</span>
+                        <span class="stat-label">Production Budgets Governed</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">#3</span>
-                        <span class="stat-label">USA Today Ranking</span>
+                        <span class="stat-label">USA Today Ranking (Top 3 Haunted Attraction)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">$1M+</span>
+                        <span class="stat-label">Annual Seasonal Revenue Impact</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Director Highlights Grid -->
+            <div class="director-highlights-grid">
+                <div class="highlight-card">
+                    <h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        Operational Leadership
+                    </h4>
+                    <p>Lead and schedule division teams exceeding 100 employees during peak periods. Build dynamic labor models, oversee multi-disciplinary live operations, orchestrate safety onboarding, and command real-time incident resolution during high-capacity events.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        Project Portfolio Management
+                    </h4>
+                    <p>Manage a concurrent portfolio spanning major seasonal event transformations, attraction installations, and facility optimizations. Utilize baseline Gantt schedules, milestone tracking, and proactive risk mitigation for zero-delay openings.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        Fiscal Oversight & ROI
+                    </h4>
+                    <p>Direct production and operational budgets surpassing $500,000. Engineer custom Excel-based forecasting models, evaluate vendor procurement bids, and cut unnecessary spending without diminishing show quality or guest safety.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        Public Safety & Permitting
+                    </h4>
+                    <p>Primary liaison with municipal planners, building inspectors, and the Fire Marshal. Author governance documentation packages for temporary structures, fire code compliance, emergency egress clear paths, and ADA regulations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 02: SKILLS & TECHNICAL COMPETENCIES -->
+        <section id="skills" class="section reveal">
+            <h2 class="section-title">02. <span class="accent-text">Skills & Master Competencies</span></h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- 1. Project Management & Business Operations -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="project-management" onclick="openSkillModal('project-management')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    </div>
+                    <span class="skill-category-label">PROJECT MANAGEMENT & OPS</span>
+                    <h3 class="skill-card-title">Project Management & Operations</h3>
+                    <p class="skill-teaser">Gantt scheduling, budget oversight ($500K+), cost estimation, WBS, procurement, risk registries, and vendor coordination.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Microsoft Project</span>
+                        <span class="preview-tag">Gantt Scheduling</span>
+                        <span class="preview-tag">Budgeting ($500K+)</span>
+                        <span class="preview-tag">Cost Estimation</span>
+                        <span class="preview-tag">Risk Registries</span>
+                        <span class="preview-tag">Labor Models (100+ Staff)</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('project-management')">Explore All 22 Skills &rarr;</button>
+                </div>
+
+                <!-- 2. Cybersecurity & Incident Response -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="cybersecurity" onclick="openSkillModal('cybersecurity')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <span class="skill-category-label">CYBERSECURITY & BLUE TEAM</span>
+                    <h3 class="skill-card-title">Cybersecurity & Blue Team Defense</h3>
+                    <p class="skill-teaser">SIEM monitoring, threat hunting, vulnerability management, defense-in-depth, and NIST framework compliance.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Wazuh SIEM</span>
+                        <span class="preview-tag">Vulnerability Management</span>
+                        <span class="preview-tag">NIST CSF 2.0 / 800-53</span>
+                        <span class="preview-tag">Threat Hunting</span>
+                        <span class="preview-tag">Incident Response</span>
+                        <span class="preview-tag">RBAC & Least Privilege</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('cybersecurity')">Explore All 19 Skills &rarr;</button>
+                </div>
+
+                <!-- 3. Offensive Security & Penetration Testing -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="pentest-offensive" onclick="openSkillModal('pentest-offensive')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                    </div>
+                    <span class="skill-category-label">ETHICAL HACKING & RED TEAM</span>
+                    <h3 class="skill-card-title">Offensive Security & Pen Testing</h3>
+                    <p class="skill-teaser">Authorized enterprise penetration testing, service exploitation, Active Directory compromise, and CVSS risk reporting.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Kali Linux</span>
+                        <span class="preview-tag">Metasploit</span>
+                        <span class="preview-tag">Evil-WinRM / SSH</span>
+                        <span class="preview-tag">Active Directory</span>
+                        <span class="preview-tag">CVSS Scoring</span>
+                        <span class="preview-tag">Formal Reporting</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('pentest-offensive')">Explore All 18 Skills &rarr;</button>
+                </div>
+
+                <!-- 4. Networking & Infrastructure Architecture -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="networking-infrastructure" onclick="openSkillModal('networking-infrastructure')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="16" y="16" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="9" y="2" width="6" height="6" rx="1"></rect><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path><path d="M12 12V8"></path></svg>
+                    </div>
+                    <span class="skill-category-label">NETWORK ENGINEERING</span>
+                    <h3 class="skill-card-title">Networking & Enterprise Infrastructure</h3>
+                    <p class="skill-teaser">Multi-segment WAN/DMZ/LAN routing, VLANs, OPNsense/VyOS firewalls, and switch & fiber-optic documentation.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">TCP/IP (IPv4/IPv6)</span>
+                        <span class="preview-tag">VLANs & Subnetting</span>
+                        <span class="preview-tag">Routing & Switching</span>
+                        <span class="preview-tag">WAN / DMZ / LAN</span>
+                        <span class="preview-tag">Fiber Infrastructure</span>
+                        <span class="preview-tag">Firewall ACLs</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('networking-infrastructure')">Explore All 17 Skills &rarr;</button>
+                </div>
+
+                <!-- 5. Systems Administration & Virtualization -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="systems-virtualization" onclick="openSkillModal('systems-virtualization')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"></rect><rect x="2" y="14" width="20" height="8" rx="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <span class="skill-category-label">SYSTEMS & VIRTUALIZATION</span>
+                    <h3 class="skill-card-title">Systems Administration & Virtualization</h3>
+                    <p class="skill-teaser">Windows Server, Linux (RHEL/Ubuntu), Active Directory Domain Services, Group Policy, and hypervisors.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Windows Server</span>
+                        <span class="preview-tag">RHEL & Ubuntu Linux</span>
+                        <span class="preview-tag">Active Directory (AD DS)</span>
+                        <span class="preview-tag">Group Policy (GPO)</span>
+                        <span class="preview-tag">VMware & Proxmox</span>
+                        <span class="preview-tag">System Service Daemons</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('systems-virtualization')">Explore All 20 Skills &rarr;</button>
+                </div>
+
+                <!-- 6. Artificial Intelligence & Workflow Automation -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="ai-automation" onclick="openSkillModal('ai-automation')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path><path d="M12 6a6 6 0 0 0-6 6h12a6 6 0 0 0-6-6z"></path></svg>
+                    </div>
+                    <span class="skill-category-label">AI & WORKFLOW AUTOMATION</span>
+                    <h3 class="skill-card-title">Artificial Intelligence & Automation</h3>
+                    <p class="skill-teaser">Local and cloud LLM integrations (Gemini API, Ollama), prompt engineering, n8n workflow orchestration, and event-driven automation.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Gemini API Suite</span>
+                        <span class="preview-tag">Ollama Local LLMs</span>
+                        <span class="preview-tag">Prompt Engineering</span>
+                        <span class="preview-tag">n8n Automation Server</span>
+                        <span class="preview-tag">Webhooks & REST APIs</span>
+                        <span class="preview-tag">Autonomous Logic Trees</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('ai-automation')">Explore All 16 Skills &rarr;</button>
+                </div>
+
+                <!-- 7. Attraction, Show Control & Entertainment Tech -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="show-control-tech" onclick="openSkillModal('show-control-tech')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <span class="skill-category-label">ENTERTAINMENT SYSTEMS</span>
+                    <h3 class="skill-card-title">Show Control & Entertainment Tech</h3>
+                    <p class="skill-teaser">DMX512 lighting, pneumatic automation, animatronics repair, spatial audio mixing, and show control networks.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">DMX512 & sACN</span>
+                        <span class="preview-tag">Animatronics Automation</span>
+                        <span class="preview-tag">Pneumatic Actuators</span>
+                        <span class="preview-tag">Spatial Audio Mixing</span>
+                        <span class="preview-tag">Projection Mapping</span>
+                        <span class="preview-tag">Interactive Attraction Triggers</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('show-control-tech')">Explore All 12 Skills &rarr;</button>
+                </div>
+
+                <!-- 8. Technical Documentation & Infrastructure Mapping -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="technical-documentation" onclick="openSkillModal('technical-documentation')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <span class="skill-category-label">INFRASTRUCTURE DOCUMENTATION</span>
+                    <h3 class="skill-card-title">Technical Documentation & Mapping</h3>
+                    <p class="skill-teaser">Network topology mapping, port/switch documentation, fiber pathways, maze schematics, and as-built drawings.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">Network Topology Maps</span>
+                        <span class="preview-tag">Fiber Pathway Docs</span>
+                        <span class="preview-tag">Switch Port Mapping</span>
+                        <span class="preview-tag">Maze Schematics</span>
+                        <span class="preview-tag">As-Built Drawings</span>
+                        <span class="preview-tag">Technical Reports</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('technical-documentation')">Explore All 16 Skills &rarr;</button>
+                </div>
+
+                <!-- 9. CAD Software & Technical Modeling -->
+                <div class="glass-card skill-card-portfolio-style" data-skill-key="cad-software" onclick="openSkillModal('cad-software')">
+                    <div class="skill-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <span class="skill-category-label">CAD & SPATIAL MODELING</span>
+                    <h3 class="skill-card-title">CAD Software & Technical Modeling</h3>
+                    <p class="skill-teaser">2D and 3D architectural drafting, attraction schematics, physical site surveys, and spatial layouts in AutoCAD, Revit, Fusion 360, and SketchUp.</p>
+                    <div class="skill-preview-tags">
+                        <span class="preview-tag">AutoCAD Architecture</span>
+                        <span class="preview-tag">Autodesk Revit</span>
+                        <span class="preview-tag">Fusion 360</span>
+                        <span class="preview-tag">SketchUp</span>
+                        <span class="preview-tag">Physical Site Surveys</span>
+                        <span class="preview-tag">Attraction Schematics</span>
+                    </div>
+                    <button class="btn-skill-explore-oval" onclick="event.stopPropagation(); openSkillModal('cad-software')">Explore All 12 Skills &rarr;</button>
+                </div>
+            </div>
+
+            <!-- Master Competencies Summary Bar -->
+            <div class="competency-summary-bar">
+                <h4>Core Competency Summary</h4>
+                <div class="competency-summary-tags">
+                    <span class="competency-tag">Project Management</span>
+                    <span class="competency-tag">Operations Management</span>
+                    <span class="competency-tag">Cybersecurity</span>
+                    <span class="competency-tag">Networking</span>
+                    <span class="competency-tag">Enterprise Infrastructure</span>
+                    <span class="competency-tag">Artificial Intelligence</span>
+                    <span class="competency-tag">Automation</span>
+                    <span class="competency-tag">Systems Integration</span>
+                    <span class="competency-tag">Technical Entertainment</span>
+                    <span class="competency-tag">Attraction Development</span>
+                    <span class="competency-tag">CAD Software & Modeling</span>
+                    <span class="competency-tag">Technical Documentation</span>
+                    <span class="competency-tag">Leadership</span>
+                    <span class="competency-tag">Public Speaking</span>
+                    <span class="competency-tag">Risk Management</span>
+                    <span class="competency-tag">Business Operations</span>
+                    <span class="competency-tag">Technology Strategy</span>
+                    <span class="competency-tag">Problem Solving</span>
+                </div>
+            </div>
+
+            <!-- Certifications Roadmap -->
+            <div class="cert-roadmap-container">
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <h4>In Progress / Planned Certifications</h4>
+                        <div class="cert-pill-list">
+                            <span class="cert-badge in-progress">Cisco CCNA (Routing & Switching)</span>
+                            <span class="cert-badge in-progress">Project Management Professional (PMP)</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <h4>Future Targets & Specialized Training</h4>
+                        <div class="cert-pill-list">
+                            <span class="cert-badge future">CISSP</span>
+                            <span class="cert-badge future">CompTIA Security+</span>
+                            <span class="cert-badge future">Operational Technology (OT) ICS Certifications</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="section reveal">
-            <h2 class="section-title">02. <span class="accent-text">Skills</span></h2>
-            <div class="skills-grid">
-                <div class="glass-card skill-category">
-                    <h3>Networking & Infra</h3>
-                    <ul>
-                        <li>TCP/IP Networking</li>
-                        <li>IPv4/IPv6 & Subnetting</li>
-                        <li>VLAN Architecture</li>
-                        <li>Routing & Switching</li>
-                        <li>Network Segmentation</li>
-                        <li>Switch & Fiber Mapping</li>
-                        <li>Topology Mapping</li>
-                    </ul>
-                </div>
-                <div class="glass-card skill-category">
-                    <h3>Systems Admin & Enterprise</h3>
-                    <ul>
-                        <li>Windows Server & 10/11</li>
-                        <li>RHEL & Ubuntu Linux</li>
-                        <li>Active Directory (AD DS)</li>
-                        <li>Microsoft 365 Admin</li>
-                        <li>Logging & Monitoring</li>
-                        <li>Identity & Access (IAM)</li>
-                    </ul>
-                </div>
-                <div class="glass-card skill-category">
-                    <h3>Project Mgmt & Docs</h3>
-                    <ul>
-                        <li>Microsoft Project</li>
-                        <li>Gantt & Project Scheduling</li>
-                        <li>Budgeting & Cost Estimation</li>
-                        <li>Technical Documentation</li>
-                        <li>Vendor & Contractor Support</li>
-                        <li>Resource Planning</li>
-                    </ul>
-                </div>
-                <div class="glass-card skill-category">
-                    <h3>Design Software</h3>
-                    <ul>
-                        <li>Revit & AutoCAD</li>
-                        <li>Fusion 360</li>
-                        <li>Visio & SketchUp</li>
-                    </ul>
-                </div>
-                <div class="glass-card skill-category">
-                    <h3>Technical Systems</h3>
-                    <ul>
-                        <li>Animatronics & Pneumatics</li>
-                        <li>DMX Lighting Control</li>
-                        <li>Projection Mapping</li>
-                        <li>Microcontrollers</li>
-                        <li>Show Systems Integration</li>
-                        <li>Systems Troubleshooting</li>
-                    </ul>
-                </div>
-                <div class="glass-card skill-category">
-                    <h3>Leadership & Ops</h3>
-                    <ul>
-                        <li>Cross-Functional Teams</li>
-                        <li>Vendor Coordination</li>
-                        <li>Code/Permit Compliance</li>
-                        <li>AI-Assisted Workflows</li>
-                        <li>Budget Oversight ($500K+)</li>
-                        <li>Team Leadership (100+ Staff)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
+        <!-- SECTION 03: EXPERIENCE -->
         <section id="experience" class="section reveal">
-            <h2 class="section-title">03. <span class="accent-text">Experience</span></h2>
+            <h2 class="section-title">03. <span class="accent-text">Professional Experience</span></h2>
             <div class="timeline">
                 <div class="timeline-item glass-card">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">September 2023 – Present</div>
-                    <h3 class="timeline-title">Creative / Entertainment Manager</h3>
-                    <h4 class="timeline-company">Castle Park, Riverside, CA</h4>
+                    <h3 class="timeline-title">Entertainment Manager</h3>
+                    <h4 class="timeline-company">Castle Park — Riverside, California</h4>
+                    
+                    <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.98rem;">
+                        Serve as the primary director, leader, and team lead responsible for planning, developing, coordinating, and executing large-scale seasonal entertainment experiences, special events, themed attractions, technical installations, and operational initiatives throughout the park property.
+                    </p>
+
                     <ul class="timeline-details">
-                        <li>Directed development of "Castle Dark", ranked 3rd nationally by USA Today; increased net profit by $100K+.</li>
-                        <li>Managed and scheduled 100+ employees during peak operations, overseeing cross-department execution.</li>
-                        <li>Oversaw $500K+ production budget, utilizing custom financial modeling for variance management.</li>
-                        <li>Developed detailed maze schematics ensuring ADA, fire, and structural compliance for major themed events.</li>
-                        <li>Engineered and integrated animatronics, DMX lighting, and pneumatic effects into show environments.</li>
-                        <li>Conducted site surveys to map switch and fiber network documentation for long-term capital planning.</li>
-                        <li>Presented large-scale attraction development strategies as a recurrent panelist at Midsummer Scream.</li>
+                        <li><strong>Cross-Functional Leadership:</strong> Provide strict oversight and guidance across creative, technical, operational, construction, maintenance, facilities, safety, and entertainment departments to ensure projects finish on time, within scope, and under budget.</li>
+                        <li><strong>Workforce Management:</strong> Lead, schedule, and coordinate a division workforce exceeding 100 employees during peak seasonal operating periods; continuously align staffing models with attendance projections, operational priorities, and daily goals.</li>
+                        <li><strong>Budget Governance ($500K+):</strong> Directly manage seasonal production and entertainment operations budgets exceeding $500,000 across multiple simultaneous properties, building custom Excel-based forecasting tools for data-driven capital allocation.</li>
+                        <li><strong>Castle Dark Flagship Property:</strong> Primary project lead for Castle Park's flagship Halloween property, consistently maintaining its national ranking as a <em>Top 3 Haunted Attraction in the United States</em> by USA Today 10Best for two consecutive years; generated $1M+ in annual revenue and boosted net profitability by $100K+.</li>
+                        <li><strong>Attraction Design & Spatial Layouts:</strong> Develop pinpoint-accurate attraction layouts, maze blueprints, and queue line pathways using physical field measurements; optimize crowd circulation and engineer emergency egress routes.</li>
+                        <li><strong>Permitting & Regulatory Compliance:</strong> Act as primary liaison with local municipal planners, building inspectors, and Fire Marshal representatives throughout all permitting, walkthrough, and sign-off phases, guaranteeing full ADA and fire code adherence.</li>
+                        <li><strong>Technical Entertainment Systems:</strong> Design, wire, install, program, and troubleshoot addressable DMX lighting environments, automated animatronics, custom pneumatic actuators, and multi-zone spatial audio cue networks.</li>
+                        <li><strong>Network & Infrastructure Mapping:</strong> Executed comprehensive, facility-wide technical surveys to locate, identify, and map out network switches, physical communication nodes, and foundational fiber-optic pathways for IT troubleshooting and capital expansion.</li>
+                        <li><strong>Midsummer Scream Presenter:</strong> Invited to speak as a featured panelist at Midsummer Scream for two consecutive years, representing Castle Dark and sharing event insights, seasonal promotions, and stories from that haunt year.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-
+        <!-- SECTION 04: PROJECTS -->
         <section id="portfolio" class="section reveal">
-            <h2 class="section-title">04. <span class="accent-text">Portfolio</span></h2>
+            <h2 class="section-title">04. <span class="accent-text">Projects</span></h2>
             <div class="portfolio-main-tabs">
-                <button class="main-tab-btn active" data-tab="creative">Creative Production</button>
-                <button class="main-tab-btn" data-tab="it">IT & Cybersecurity</button>
+                <button class="main-tab-btn active" data-tab="it">Cybersecurity & Infrastructure</button>
+                <button class="main-tab-btn" data-tab="software">Software, AI & Automation</button>
+                <button class="main-tab-btn" data-tab="creative">Themed Entertainment & Production</button>
             </div>
 
-            <!-- Creative Production Sub-Portfolio -->
-            <div id="creative-portfolio" class="portfolio-sub-content active">
+            <!-- TAB 1: CYBERSECURITY & SYSTEMS OPERATIONS -->
+            <div id="it-portfolio" class="portfolio-sub-content active">
+                <div class="sub-portfolio-header">
+                    <h3>Enterprise Infrastructure, Hardening & Security Operations</h3>
+                    <p>Hands-on engineering across enterprise network segmentation, blue team defense, authorized penetration testing, and ICS/OT security analysis.</p>
+                </div>
+                <div class="it-portfolio-grid">
+                    <!-- Project 1: Dogpark Enterprise Infrastructure Project (KAM Industries) -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"></rect><rect x="2" y="14" width="20" height="8" rx="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                        </div>
+                        <span class="it-category">Simulated Enterprise Architecture & Defense | CSUSB</span>
+                        <h3>Dogpark Enterprise Infrastructure Project</h3>
+                        <p class="it-teaser">Architected and defended a simulated enterprise network for fake company &ldquo;KAM Industries.&rdquo; Deployed multi-tier infrastructure segmented into WAN, DMZ, and internal LAN environments with Active Directory (AD DS), OPNsense/VyOS firewalls, and Wazuh SIEM monitoring; defended against live red team intrusions and achieved an audited 94% defensive baseline on NIST CSF 2.0 / SP 800-53.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">KAM Industries Enterprise</span>
+                            <span class="tech-tag">Active Directory (AD DS)</span>
+                            <span class="tech-tag">WAN / DMZ / LAN</span>
+                            <span class="tech-tag">OPNsense & VyOS</span>
+                            <span class="tech-tag">Wazuh SIEM</span>
+                            <span class="tech-tag">NIST CSF 2.0 (94%)</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="enterprise-network">View Project</button>
+                    </div>
+
+                    <!-- Project 2: Dogpark Penetration Test & Risk Assessment -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                        </div>
+                        <span class="it-category">Enterprise Red Teaming & Critical Infrastructure | CSUSB</span>
+                        <h3>Dogpark Penetration Test & Risk Assessment</h3>
+                        <p class="it-teaser">Lead contributor for authorized internal enterprise penetration test (April 2026); exploited Windows Server IIS, Linux PostgreSQL, and Active Directory domain controllers with CVSS modeling and AI acceleration; extended assessment to evaluate OT attack surfaces and multi-stage lateral attack paths into simulated critical infrastructure utilities.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Dogpark Red Teaming</span>
+                            <span class="tech-tag">Kali Linux & Metasploit</span>
+                            <span class="tech-tag">Active Directory Testing</span>
+                            <span class="tech-tag">CVSS 3.1 Modeling</span>
+                            <span class="tech-tag">OT / ICS Attack Surfaces</span>
+                            <span class="tech-tag">Critical Infrastructure</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="pentest-redteam">View Project</button>
+                    </div>
+
+                    <!-- Project 3: Meeting of the Minds Research Presentation -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <span class="it-category">Themed Entertainment & Information Systems Research | CSUSB</span>
+                        <h3>Meeting of the Minds: From DMX to IP</h3>
+                        <p class="it-teaser">&ldquo;From DMX to IP: How Lighting Control Systems in Themed Entertainment Have Evolved into Modern Information Systems,&rdquo; presented at CSUSB&rsquo;s Meeting of the Minds research conference. Examined how protocols like Art-Net and Streaming ACN (sACN) have evolved into IP-based networks requiring knowledge of networking, VLANs, managed switches, and cybersecurity&mdash;exploring how operational technologies increasingly resemble enterprise IT environments.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Art-Net & sACN (E1.31)</span>
+                            <span class="tech-tag">From DMX to IP</span>
+                            <span class="tech-tag">Managed Switches & VLANs</span>
+                            <span class="tech-tag">OT Cybersecurity</span>
+                            <span class="tech-tag">Meeting of the Minds</span>
+                            <span class="tech-tag">Conference Presenter</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="meeting-minds">View Project</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: SOFTWARE DEVELOPMENT, AI & AUTOMATION -->
+            <div id="software-portfolio" class="portfolio-sub-content">
+                <div class="sub-portfolio-header">
+                    <h3>Software Engineering, AI & Show Automation</h3>
+                    <p>Custom inventory databases, full-stack AI web applications, animatronic figures, and autonomous show control nodes.</p>
+                </div>
+                <div class="it-portfolio-grid">
+                    <!-- Project 1: Halloween Props Tracker -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <span class="it-category">Custom Software & Asset Tracking | Castle Park</span>
+                        <h3>Halloween Props Tracker</h3>
+                        <p class="it-teaser">Standalone custom asset management database replacing legacy manual logging. Normalized schema, dynamic inline QR code generator on equipment labels, dynamic chain of custody, and instant Excel audit exports.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Python 3</span>
+                            <span class="tech-tag">Relational SQL</span>
+                            <span class="tech-tag">Custom GUI</span>
+                            <span class="tech-tag">QR Code Engine</span>
+                            <span class="tech-tag">OpenPyXL</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="props-tracker">View Project</button>
+                    </div>
+
+                    <!-- Project 2: AI Campaign Generator -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path><path d="M12 6a6 6 0 0 0-6 6h12a6 6 0 0 0-6-6z"></path></svg>
+                        </div>
+                        <span class="it-category">Full-Stack AI Application | Independent Project</span>
+                        <h3>AI Campaign Generator</h3>
+                        <p class="it-teaser">Responsive cloud-hosted narrative platform building multi-turn campaign milestones, adaptive character arcs, branching dialogue, session tracking, Firebase cloud store, and n8n orchestration nodes.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">JavaScript / HTML5</span>
+                            <span class="tech-tag">Firebase Cloud</span>
+                            <span class="tech-tag">n8n Workflows</span>
+                            <span class="tech-tag">Ollama Local LLM</span>
+                            <span class="tech-tag">Gemini API</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="ai-campaign">View Project</button>
+                    </div>
+
+                    <!-- Project 3: Interactive Animatronic Bird -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                        </div>
+                        <span class="it-category">Embedded Hardware & Robotics | Themed Tech</span>
+                        <h3>Interactive Animatronic Bird (Arduino)</h3>
+                        <p class="it-teaser">Autonomous animatronic figure featuring programmed head movement, synchronized sound playback, eye flicker effects, and wireless infrared (IR) command activation.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Arduino (AVR)</span>
+                            <span class="tech-tag">Head Movement</span>
+                            <span class="tech-tag">Synchronized Sound</span>
+                            <span class="tech-tag">Eye Flicker</span>
+                            <span class="tech-tag">IR Remote Commands</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="animatronic-bird">View Project</button>
+                    </div>
+
+                    <!-- Project 4: Raspberry Pi Show Control Node -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect></svg>
+                        </div>
+                        <span class="it-category">Microcomputing & Show Control | Production</span>
+                        <h3>Raspberry Pi Show Control Node</h3>
+                        <p class="it-teaser">Debian Linux show node intercepting incoming audio frequencies to dynamically modulate DMX lighting; standalone thunderstorm simulation synchronizing random audio tracks with strobes.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Raspberry Pi 5</span>
+                            <span class="tech-tag">Debian Linux</span>
+                            <span class="tech-tag">Audio-to-DMX</span>
+                            <span class="tech-tag">Strobe Sequences</span>
+                            <span class="tech-tag">Show Control</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="raspberry-pi-node">View Project</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: THEMED ENTERTAINMENT & PRODUCTION -->
+            <div id="creative-portfolio" class="portfolio-sub-content">
+                <div class="sub-portfolio-header">
+                    <h3>Large-Scale Themed Attractions, Seasonal Events & Technical Production</h3>
+                    <p>Nationally recognized Halloween properties (USA Today Top 3), holiday festivals, technical show systems, and industry convention presentations.</p>
+                </div>
+
+                <!-- Featured Production Projects Grid -->
+                <div class="it-portfolio-grid" style="margin-bottom: 3.5rem;">
+                    <!-- Project 1: Castle Dark Flagship Portfolio -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                        </div>
+                        <span class="it-category">Flagship Seasonal Event | Castle Park</span>
+                        <h3>Castle Dark Project Portfolio</h3>
+                        <p class="it-teaser">Project lead for Castle Park's flagship Halloween property; maintained national ranking as a Top 3 Haunted Attraction in the US by USA Today 10Best for two consecutive years; generated $1M+ in revenue.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">USA Today Top 3</span>
+                            <span class="tech-tag">100+ Staff Managed</span>
+                            <span class="tech-tag">$500K+ Budget</span>
+                            <span class="tech-tag">DMX & Animatronics</span>
+                            <span class="tech-tag">City Permitting</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="castle-dark">View Project</button>
+                    </div>
+
+                    <!-- Project 2: Christmas Event Development -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18M6.5 6.5l11 11M6.5 17.5l11-11"></path></svg>
+                        </div>
+                        <span class="it-category">Seasonal Family Experience | Castle Park</span>
+                        <h3>Christmas Event Development</h3>
+                        <p class="it-teaser">Led strategic multi-departmental planning, site layout optimization, holiday entertainment programming, projection mapping installs, and labor allocation models for optimal revenue and guest satisfaction.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Projection Mapping</span>
+                            <span class="tech-tag">Lighting Installs</span>
+                            <span class="tech-tag">Labor Scheduling</span>
+                            <span class="tech-tag">Budget Oversight</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="christmas-event">View Project</button>
+                    </div>
+
+                    <!-- Project 3: Mardi Gras & Easter Events -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        </div>
+                        <span class="it-category">Seasonal Festivals | Castle Park</span>
+                        <h3>Mardi Gras & Easter Seasonal Events</h3>
+                        <p class="it-teaser">Coordinated design, operational logistics, themed guest experience loops, performance schedules, tech coordination, temporary staging, and front-line workforce deployment.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">Festival Operations</span>
+                            <span class="tech-tag">Live Logistics</span>
+                            <span class="tech-tag">Performer Scheduling</span>
+                            <span class="tech-tag">Guest Experience</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="mardi-gras-easter">View Project</button>
+                    </div>
+
+                    <!-- Project 4: Midsummer Scream Presenter -->
+                    <div class="it-portfolio-item glass-card">
+                        <div class="it-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                        </div>
+                        <span class="it-category">Industry Convention Speaker | 2-Year Panelist</span>
+                        <h3>Midsummer Scream Presenter</h3>
+                        <p class="it-teaser">Invited to speak as a featured panelist at Midsummer Scream for two consecutive years, representing Castle Dark and sharing event insights, seasonal promotions, and stories from that haunt year.</p>
+                        <div class="it-tech-tags">
+                            <span class="tech-tag">2-Year Panelist</span>
+                            <span class="tech-tag">Panel Photos Gallery</span>
+                            <span class="tech-tag">Event Insights</span>
+                            <span class="tech-tag">Seasonal Promotions</span>
+                        </div>
+                        <button class="btn secondary-btn it-view-btn" data-project-id="midsummer-scream">View Project</button>
+                    </div>
+                </div>
+
+                <!-- Interactive Photo Gallery (Panel photos moved into Midsummer Scream project modal) -->
                 <div class="portfolio-filters">
                     <button class="filter-btn active" data-filter="all">All Installs</button>
                     <button class="filter-btn" data-filter="halloween">Halloween</button>
@@ -177,290 +609,290 @@
                     <button class="filter-btn" data-filter="midsummer">Midsummer</button>
                 </div>
                 <div class="portfolio-grid">
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2024-show-1.webp" alt="Christmas 2024 Show" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2024 Show</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2024-show-2.webp" alt="Christmas 2024 Show" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2024 Show</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2024-show-3.webp" alt="Christmas 2024 Show" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2024 Show</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2025-lighting-install.webp" alt="Christmas 2025 Lighting Install" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2025 Lighting Install</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2025-show-1.webp" alt="Christmas 2025 Show" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2025 Show</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-install-2.webp" alt="Halloween Install" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Install</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-install-3.webp" alt="Halloween Install" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Install</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-activation-preview-4.webp" alt="Halloween Activation Preview" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Activation Preview</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-activation-preview-2.webp" alt="Halloween Activation Preview" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Activation Preview</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-cast.webp" alt="Halloween Cast" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Cast</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-install-1.webp" alt="Halloween Install" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Install</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-install-4.webp" alt="Halloween Install" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Install</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card halloween" data-category="halloween">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/halloween-preview-activation-1.webp" alt="Halloween Preview Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Halloween Preview Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2025-activation-1.webp" alt="Midsummer 2025 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2025 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-panel-2.webp" alt="Midsummer Panel" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer Panel</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-panel-1.webp" alt="Midsummer Panel" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer Panel</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2024-activation-1.webp" alt="Midsummer 2024 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2024 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2024-activation-2.webp" alt="Midsummer 2024 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2024 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2025-activation-3a.webp" alt="Midsummer 2025 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2025 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2025-activation-4.webp" alt="Midsummer 2025 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2025 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2025-activation-2.webp" alt="Midsummer 2025 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2025 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card midsummer" data-category="midsummer">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/midsummer-2025-activation-3b.webp" alt="Midsummer 2025 Activation" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Midsummer 2025 Activation</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card other" data-category="other">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/projection-mapping.webp" alt="Projection Mapping" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Projection Mapping</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item glass-card christmas" data-category="christmas">
-                    <div class="portfolio-image-wrapper">
-                        <img src="images/christmas-2024-projection-mapping.webp" alt="Christmas 2024 Projection Mapping" loading="lazy">
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Christmas 2024 Projection Mapping</h3>
-                    </div>
-                </div>
-            </div></div> <!-- End of creative-portfolio sub-content -->
-
-            <!-- IT & Cybersecurity Sub-Portfolio -->
-            <div id="it-portfolio" class="portfolio-sub-content">
-                <div class="it-portfolio-grid">
-                    <!-- Project 1: Enterprise Network & Cybersecurity Lab -->
-                    <div class="it-portfolio-item glass-card">
-                        <div class="it-card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><circle cx="12" cy="11" r="3"></circle></svg>
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2024-show-1.webp" alt="Christmas 2024 Show" loading="lazy">
                         </div>
-                        <span class="it-category">Network & Security Engineering</span>
-                        <h3>Enterprise Network & Cybersecurity Lab</h3>
-                        <p class="it-teaser">Designed, configured, and secured a multi-segmented enterprise network topology protected by OPNsense Firewall and VyOS routing.</p>
-                        <div class="it-tech-tags">
-                            <span class="tech-tag">OPNsense</span>
-                            <span class="tech-tag">VyOS</span>
-                            <span class="tech-tag">Active Directory</span>
-                            <span class="tech-tag">Wazuh SIEM</span>
-                            <span class="tech-tag">RHEL</span>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2024 Show</h3>
                         </div>
-                        <button class="btn secondary-btn it-view-btn" data-project-id="enterprise-network">View Case Study</button>
                     </div>
-
-                    <!-- Project 2: AI-Assisted Red Team Penetration Testing -->
-                    <div class="it-portfolio-item glass-card">
-                        <div class="it-card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2024-show-2.webp" alt="Christmas 2024 Show" loading="lazy">
                         </div>
-                        <span class="it-category">Offensive Security & Red Teaming</span>
-                        <h3>AI-Assisted Red Team Penetration Testing</h3>
-                        <p class="it-teaser">Conducted multi-phase penetration testing against a simulated enterprise network, utilizing a local AI agent (OpenClaw) to accelerate reconnaissance, vulnerability mapping, and reporting.</p>
-                        <div class="it-tech-tags">
-                            <span class="tech-tag">Kali Linux</span>
-                            <span class="tech-tag">Nmap</span>
-                            <span class="tech-tag">Evil-WinRM</span>
-                            <span class="tech-tag">OpenClaw</span>
-                            <span class="tech-tag">Active Directory</span>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2024 Show</h3>
                         </div>
-                        <button class="btn secondary-btn it-view-btn" data-project-id="pentest-redteam">View Case Study</button>
                     </div>
-
-
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2024-show-3.webp" alt="Christmas 2024 Show" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2024 Show</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2025-lighting-install.webp" alt="Christmas 2025 Lighting Install" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2025 Lighting Install</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2025-show-1.webp" alt="Christmas 2025 Show" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2025 Show</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-install-2.webp" alt="Halloween Install" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Install</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-install-3.webp" alt="Halloween Install" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Install</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-activation-preview-4.webp" alt="Halloween Activation Preview" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Activation Preview</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-activation-preview-2.webp" alt="Halloween Activation Preview" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Activation Preview</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-cast.webp" alt="Halloween Cast" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Cast</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-install-1.webp" alt="Halloween Install" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Install</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-install-4.webp" alt="Halloween Install" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Install</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card halloween" data-category="halloween">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/halloween-preview-activation-1.webp" alt="Halloween Preview Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Halloween Preview Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2025-activation-1.webp" alt="Midsummer 2025 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2025 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2024-activation-1.webp" alt="Midsummer 2024 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2024 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2024-activation-2.webp" alt="Midsummer 2024 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2024 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2025-activation-3a.webp" alt="Midsummer 2025 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2025 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2025-activation-4.webp" alt="Midsummer 2025 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2025 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2025-activation-2.webp" alt="Midsummer 2025 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2025 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card midsummer" data-category="midsummer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/midsummer-2025-activation-3b.webp" alt="Midsummer 2025 Activation" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Midsummer 2025 Activation</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card other" data-category="other">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/projection-mapping.webp" alt="Projection Mapping" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Projection Mapping</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-card christmas" data-category="christmas">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/christmas-2024-projection-mapping.webp" alt="Christmas 2024 Projection Mapping" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Christmas 2024 Projection Mapping</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- SECTION 05: EDUCATION & ACADEMIC RESEARCH -->
         <section id="education" class="section reveal">
-            <h2 class="section-title">05. <span class="accent-text">Education</span></h2>
-            <div class="glass-card dual-layout align-center">
-                <div class="degree-info">
-                    <h3>Bachelor of Science</h3>
-                    <h4 class="major">Information Systems & Technology</h4>
-                    <p class="concentration">Cybersecurity Concentration</p>
-                    <p class="university">California State University, San Bernardino</p>
-                    <p class="graduation date-badge">Graduated: May 2026</p>
+            <h2 class="section-title">05. <span class="accent-text">Education & Academic Research</span></h2>
+            <div class="education-grid">
+                <!-- CSUSB Bachelor of Science Card -->
+                <div class="glass-card degree-card-split">
+                    <div class="degree-card-left">
+                        <h3 class="degree-level-title">Bachelor of Science</h3>
+                        <h4 class="degree-major-title">Information Systems & Technology</h4>
+                        <p class="degree-concentration">Cybersecurity Concentration</p>
+                        <p class="degree-university">California State University, San Bernardino</p>
+                        <div class="degree-status-badge">Graduated: May 2026</div>
+                    </div>
+                    <div class="degree-card-right">
+                        <div class="honor-stacked-row">
+                            <strong>Honors Program Graduate</strong>, CSUSB University Honors Program
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>President</strong>, Coyote Village Residence Halls Council
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>Presenter</strong>, Meeting of the Minds Research Showcase
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>Member</strong>, CISO Club (Network Defense & CTFs)
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>Recipient</strong>, PAES Scholarship
+                        </div>
+                    </div>
                 </div>
-                <div class="honors-list">
-                    <ul>
-                        <li><strong>President</strong>, Coyote Village Residence Halls Council</li>
-                        <li><strong>Member</strong>, CISO Club</li>
-                        <li><strong>Recipient</strong>, PAES Scholarship</li>
-                    </ul>
+
+                <!-- Purdue Master of Science Card -->
+                <div class="glass-card degree-card-split">
+                    <div class="degree-card-left">
+                        <h3 class="degree-level-title">Master of Science</h3>
+                        <h4 class="degree-major-title">Computer & Information Technology</h4>
+                        <p class="degree-concentration">Project Management Concentration</p>
+                        <p class="degree-university">Purdue University</p>
+                        <div class="degree-status-badge">Expected Graduation: Fall 2027</div>
+                    </div>
+                    <div class="degree-card-right">
+                        <div class="honor-stacked-row">
+                            <strong>Specialization</strong>, Project Management & Systems Analytics
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>Focus Area</strong>, Enterprise IT Operations & Infrastructure
+                        </div>
+                        <div class="honor-stacked-row">
+                            <strong>Institution</strong>, Purdue University Polytechnic Institute
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="glass-footer">
+        <p>&copy; 2026 Kolten Bierman. All Rights Reserved.</p>
         <div class="social-links">
             <a href="mailto:koltenbierman@gmail.com">koltenbierman@gmail.com</a>
             <span> | </span>
             <span>951-818-2101</span>
+            <span> | </span>
+            <span>Corona & Riverside, California</span>
         </div>
     </footer>
 
-    <!-- Particles.js for background effect -->
+    <!-- Particles.js background script -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    
-    <!-- Case Study Modal -->
-    <div id="case-study-modal" class="case-study-modal">
-        <span class="case-study-close">&times;</span>
+
+    <!-- Skills Detail Modal -->
+    <div id="skills-modal" class="case-study-modal" role="dialog" aria-label="Skills details popup">
+        <button class="case-study-close" id="skills-modal-close" aria-label="Close skills modal" onclick="closeSkillsModal(event)">&times;</button>
+        <div class="case-study-modal-container glass-card">
+            <div class="case-study-body" id="skills-modal-body">
+                <!-- Content injected dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div id="case-study-modal" class="case-study-modal" role="dialog" aria-label="Project details popup">
+        <button class="case-study-close" id="case-study-close" aria-label="Close project modal" onclick="closeCaseStudyModal(event)">&times;</button>
         <div class="case-study-modal-container glass-card">
             <div class="case-study-body" id="case-study-body">
                 <!-- Content injected dynamically via JavaScript -->
             </div>
         </div>
     </div>
-    
+
     <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox">
-        <span class="lightbox-close">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
-        <div id="lightbox-caption"></div>
+    <div id="lightbox" class="lightbox" role="dialog" aria-label="Photo Lightbox Gallery" onclick="if(event.target === this) closeLightbox(event)">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close image" onclick="closeLightbox(event)">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo" onclick="changeLightboxImage(-1, event)">&#10094;</button>
+        <div class="lightbox-wrapper">
+            <img class="lightbox-content" id="lightbox-img" alt="Portfolio Preview">
+            <div class="lightbox-info">
+                <div id="lightbox-caption" class="lightbox-caption"></div>
+                <div id="lightbox-counter" class="lightbox-counter"></div>
+            </div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo" onclick="changeLightboxImage(1, event)">&#10095;</button>
     </div>
 
     <script src="script.js"></script>
